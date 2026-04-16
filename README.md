@@ -17,18 +17,28 @@ This project demonstrates how to build an ELT pipeline using **dbt (data build t
 
 ## Project Structure
 
+## Project Structure
+
+```
 dbt_hw8/
+│
 ├── models/
 │   ├── transform/
 │   │   ├── user_session_channel.sql   # CTE transform model
 │   │   └── session_timestamp.sql      # CTE transform model
+│   │
 │   ├── analytics/
 │   │   └── session_summary.sql        # Analytics table model
-│   └── schema.yml                     # Data tests definition
+│   │
+│   └── schema.yml                     # Data tests
+│
 ├── snapshots/
 │   └── snapshot_session_summary.sql   # SCD Type 2 snapshot
+│
 ├── dbt_project.yml
 └── README.md
+```
+
 ## Steps Completed
 
 ### Step 1 — dbt Project with Snowflake Connector
