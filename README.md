@@ -10,7 +10,6 @@ This project demonstrates how to build an ELT pipeline using **dbt (data build t
 - GitHub for version control
 
 ## Snowflake Configuration
-- **Account:** SFEDU02-EAB27764
 - **Database:** USER_DB_FERRET
 - **Warehouse:** FERRET_QUERY_WH
 - **Role:** TRAINING_ROLE
