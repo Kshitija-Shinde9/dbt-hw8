@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: session_summary
+    description: "Summary of user sessions with channel and timestamp"
+    columns:
+      - name: sessionId
+        description: "Unique session identifier"
+        tests:
+          - not_null
+          - unique
+      - name: userId
+        description: "User identifier"
+      - name: channel
+        description: "Acquisition channel"
+      - name: ts
+        description: "Session timestamp"
