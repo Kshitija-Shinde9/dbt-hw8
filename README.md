@@ -85,7 +85,7 @@ dbt test
 ```
 
 ## GitHub Repository
-https://github.com/Kshitija-Shinde9/dbt-hw8
+[https://github.com/Kshitija-Shinde9/dbt-hw8](https://github.com/Kshitija-Shinde9/ELT-Deep-Dive-with-dbt-Snowflake)
 
 ## Author
 Kshitija Shinde
